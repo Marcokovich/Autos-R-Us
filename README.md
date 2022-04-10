@@ -37,41 +37,45 @@ Below is the summary of the suspension coil dataframe, broken down by the differ
 
 ## T-Tests on Suspension Coils
 
-A t-test performed on the full sample.
-The null hypothesis: The true mean is equal to 1500
-The alternative hypothesis: The true mean is not equal to 1500
-Results of the t-test below:
+### T-test on full sample:
+- A t-test performed on the full sample.
+- The null hypothesis: The true mean is equal to 1500
+- The alternative hypothesis: The true mean is not equal to 1500
+- Results of the t-test below:
 
 ![image](https://user-images.githubusercontent.com/71575748/162596909-7447d914-d88f-4ae1-8413-7070d7f92360.png)
 
 We observe a p-value of 0.06028 meaning at an alpha of .05 we fail to reject the null hypothesis. At an alpha of .15 we can reject the null hypothesis since this is a two-tailed test.
 
-A second t-test was perofmred on a subset of the sample from lot 1. The null and alternative hypothesis is the same as the previous t-test.
-Null: True mean is 1500
-Alternative: True mean is not 1500
-Results of this t-test below:
+### T-test on lot 1 sample:
+- A second t-test was perofmred on a subset of the sample from lot 1. The null and alternative hypothesis is the same as the previous t-test.
+- Null: True mean is 1500
+- Alternative: True mean is not 1500
+- Results of this t-test below:
 
 ![image](https://user-images.githubusercontent.com/71575748/162597143-ed7574bf-9ec1-4b3a-bbc9-fa69c6715ac0.png)
 
 We observe a p-value of 1.0, meaning there is no alpha value where we can reject the null hypothesis. We fail to reject the null hypothesis.
 
-A third t-test is performed on a subset from the sample from lot 2. The Null and Alternative are the same as above.
-Null: True mean is 1500
-Alternative: True Mean is not 1500
-Result of this t-test below:
+### T-test on lot 2 sample:
+- A third t-test is performed on a subset from the sample from lot 2. The Null and Alternative are the same as above.
+- Null: True mean is 1500
+- Alternative: True Mean is not 1500
+- Result of this t-test below:
 
 ![image](https://user-images.githubusercontent.com/71575748/162597434-c4faecc1-afbb-4d38-9a0c-89429b1514eb.png)
 
 We observe a p-value of 0.6072, meaning there is no alpha below .6072 were we fail to reject the null hypothesis.
 
-A final t-test is performed on the subset from the sample from lot 3. The Null and Alternative are the same as above.
-Null: The true mean is 1500
-Alternative: The true mean is not 1500
-Results of this t-test below:
+### T-test on lot 3 sample:
+- A final t-test is performed on the subset from the sample from lot 3. The Null and Alternative are the same as above.
+- Null: The true mean is 1500
+- Alternative: The true mean is not 1500
+- Results of this t-test below:
 
 ![image](https://user-images.githubusercontent.com/71575748/162598200-2e8f35b6-72de-4c79-8315-c3e87a2b828c.png)
 
-We observe a p-value of 0.04168 so we are able to reject the null hypothesis at the fabled .05 alpha level. HOWEVER, that would be the case if this was a one-tailed test. It is a two tailed test so we would have to double the p-value, thus failing to reject the null. In conclusion we would fail to reject the null hypothesis at the .05 alpha level, but not at a .10 alpha level
+We observe a p-value of 0.04168 so we are able to reject the null hypothesis at the fabled .05 alpha level.
 
 ## Study Design: MechaCar vs Competition:
 
